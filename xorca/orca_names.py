@@ -97,7 +97,27 @@ orca_variables = {
     "vmaskpac": {"dims": ["y_r", "x_c"], "old_names": ["tmaskpac", ]},
     "fmaskatl": {"dims": ["y_r", "x_r"], "old_names": ["tmaskatl", ]},
     "fmaskind": {"dims": ["y_r", "x_r"], "old_names": ["tmaskind", ]},
-    "fmaskpac": {"dims": ["y_r", "x_r"], "old_names": ["tmaskpac", ]}
+    "fmaskpac": {"dims": ["y_r", "x_r"], "old_names": ["tmaskpac", ]},
+    "utrd_keg": {"dims": ["t", "z_c", "y_c", "x_r"]},
+    "vtrd_keg": {"dims": ["t", "z_c", "y_r", "x_c"]},
+    "utrd_zad": {"dims": ["t", "z_c", "y_c", "x_r"]},
+    "vtrd_zad": {"dims": ["t", "z_c", "y_r", "x_c"]},
+    "utrd_rvo": {"dims": ["t", "z_c", "y_c", "x_r"]},
+    "vtrd_rvo": {"dims": ["t", "z_c", "y_r", "x_c"]},
+    "utrd_pvo": {"dims": ["t", "z_c", "y_c", "x_r"]},
+    "vtrd_pvo": {"dims": ["t", "z_c", "y_r", "x_c"]},
+    "utrd_ldf": {"dims": ["t", "z_c", "y_c", "x_r"]},
+    "vtrd_ldf": {"dims": ["t", "z_c", "y_r", "x_c"]},
+    "utrd_hpg": {"dims": ["t", "z_c", "y_c", "x_r"]},
+    "vtrd_hpg": {"dims": ["t", "z_c", "y_r", "x_c"]},
+    "utrd_spg": {"dims": ["t", "z_c", "y_c", "x_r"]},
+    "vtrd_spg": {"dims": ["t", "z_c", "y_r", "x_c"]},
+    "utrd_bfr": {"dims": ["t", "z_c", "y_c", "x_r"]},
+    "vtrd_bfr": {"dims": ["t", "z_c", "y_r", "x_c"]},
+    "utrd_tau": {"dims": ["t", "y_c", "x_r"]},
+    "vtrd_tau": {"dims": ["t", "y_r", "x_c"]},
+    "utrd_tot": {"dims": ["t", "z_c", "y_c", "x_r"]},
+    "vtrd_tot": {"dims": ["t", "z_c", "y_r", "x_c"]}
 }
 
 rename_dims = {
