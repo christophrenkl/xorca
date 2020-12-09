@@ -126,7 +126,8 @@ orca_variables = {
     "utrd_tau": {"dims": ["t", "y_c", "x_r"]},
     "vtrd_tau": {"dims": ["t", "y_r", "x_c"]},
     "utrd_tot": {"dims": ["t", "y_c", "x_r"]},
-    "vtrd_tot": {"dims": ["t", "y_r", "x_c"]}
+    "vtrd_tot": {"dims": ["t", "y_r", "x_c"]},
+    "mld": {"dims": ["t", "y_c", "x_c"]}
 }
 
 rename_dims = {
